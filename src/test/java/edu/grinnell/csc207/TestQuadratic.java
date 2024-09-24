@@ -20,7 +20,7 @@ public class TestQuadratic {
    */
   @Test
   public void testRootsOnlyA() {
-    assertEquals(0, (new Quadratic(4, 0, 0)).smallerRoot(), 0.001,
+    assertEquals(-5, (new Quadratic(1, 3, -10)).smallerRoot(), 0.001,
         "The smaller root of 4x^2 is 0");
     assertEquals(0, (new Quadratic(4, 0, 0)).largerRoot(), 0.001,
         "The larger root of 4x^2 is 0");
